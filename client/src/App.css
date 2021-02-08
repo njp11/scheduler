@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Roboto", sans-serif;
+}
+table {
+  margin: 20px auto;
+  max-width: 100%;
+  border-collapse: collapse;
+}
+th {
+  padding: 10px;
+}
+td {
+  padding: 10px;
+}
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 15px;
+}
+.text-left {
+  text-align: left;
+}
+.employee-select {
+  width: 100%;
+  padding: 5px 2px;
+}
+.warning {
+  color: #000000;
+  background-color: #ffcc00;
+  width: 100%;
+  text-align: center;
+  padding: 10px;
+}
+.warning-bg {
+  background-color: #ffcc00;
+}
+.btn {
+  box-shadow: inset 0px 1px 0px 0px #54a3f7;
+  background-color: #007dc1;
+  border-radius: 7px;
+  border: 1px solid #124d77;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-size: 16px;
+  padding: 5px 10px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #154682;
+}
+.btn:hover {
+  background-color: #0061a7;
+}
+.btn:focus {
+  outline: none;
+}
+.btn:active {
+  position: relative;
+  top: 1px;
+}
+.save-btn {
+  font-size: 20px;
+  padding: 7px 20px;
+}
+.clear-btn {
+  box-shadow: inset 0px 1px 3px 0px #91b8b3;
+  background-color: #6c757d;
+  border-radius: 7px;
+  border: 1px solid #6c757d;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 5px 10px;
+  text-decoration: none;
+  text-shadow: 0px -1px 0px #2b665e;
+  margin-left: 10px;
+}
+.clear-btn:hover {
+  background-color: #6c7c7c;
+}
+.clear-btn:focus {
+  outline: none;
+}
+.success-msg {
+  color: #22bb33;
+  padding: 0px 10px 10px;
+}
+.fail-msg {
+  color: #dc3545;
+  padding: 0px 10px 10px;
+}
